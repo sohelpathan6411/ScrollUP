@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
       fallbackLocale: Locale('en', 'US'),
       title: 'getx_docto_appointment',
       initialBinding: InitialBindings(),
-      initialRoute: AppRoutes.initialRoute,
+      initialRoute: AppRoutes.appNavigationScreen,
       getPages: AppRoutes.pages,
     );
   }

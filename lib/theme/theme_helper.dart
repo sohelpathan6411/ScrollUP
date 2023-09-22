@@ -75,6 +75,8 @@ class PrimaryColors {
 
   // White
   Color get whiteA700 => Color(0XFFFFFFFF);
+
+  
 }
 
 PrimaryColors get appTheme => ThemeHelper().themeColor();

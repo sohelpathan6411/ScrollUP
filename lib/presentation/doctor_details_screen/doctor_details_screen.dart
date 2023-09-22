@@ -15,16 +15,16 @@ class DoctorDetailsScreen extends GetWidget<DoctorDetailsController> {
 
     return SafeArea(
       child: Scaffold(
+        // appBar: AppBar(
+        //   leading: Container(
+
+        //     child: Icon(Icons.arrow_back)),
+        // ),
         body: SizedBox(
           width: double.maxFinite,
           child: Column(
             children: [
               SizedBox(height: 5.v),
-              CustomImageView(
-                imagePath: ImageConstant.imgDoctordetails1,
-                height: 912.v,
-                width: 428.h,
-              ),
             ],
           ),
         ),
