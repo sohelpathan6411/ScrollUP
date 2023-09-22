@@ -7,4 +7,14 @@ import 'package:getx_docto_appointment/presentation/doctor_details_screen/models
 /// current doctorDetailsModelObj
 class DoctorDetailsController extends GetxController {
   Rx<DoctorDetailsModel> doctorDetailsModelObj = DoctorDetailsModel().obs;
+  var selectedDayIndex = 0.obs;
+  var selectedTimeIndex = 0.obs;
+
+  void setDayIndex(index) {
+    selectedDayIndex.value = index;
+  }
+
+  void setTimeIndex(index) {
+    selectedTimeIndex.value = index;
+  }
 }

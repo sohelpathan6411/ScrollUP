@@ -12,4 +12,9 @@ final Map<String, String> enUs = {
 // Network Error String
   "msg_network_err": "Network Error",
   "msg_something_went_wrong": "Something Went Wrong!",
+
+  //BOOK APPOINTMENT
+  "BOOK_APPOINTMENT": "BOOK APPOINTMENT",
+  "Day": "Day",
+  "Time": "Time"
 };

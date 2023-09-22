@@ -50,6 +50,55 @@ class ThemeHelper {
       visualDensity: VisualDensity.standard,
       colorScheme: colorScheme,
       scaffoldBackgroundColor: appTheme.whiteA700,
+      textTheme: TextTheme(
+        headline1: TextStyle(
+            color: appTheme.black900,
+            letterSpacing: 1,
+            wordSpacing: 1,
+            fontWeight: FontWeight.w600,
+            fontSize: 22.fSize),
+        headline2: TextStyle(
+            color: appTheme.black900,
+            letterSpacing: 1,
+            wordSpacing: 1,
+            fontWeight: FontWeight.w600,
+            fontSize: 20.fSize),
+        headline3: TextStyle(
+            color: appTheme.black900,
+            letterSpacing: 1,
+            wordSpacing: 1,
+            fontWeight: FontWeight.w500,
+            fontSize: 18.fSize),
+        headline4: TextStyle(
+            color: appTheme.black900,
+            letterSpacing: 1,
+            wordSpacing: 1,
+            fontWeight: FontWeight.w400,
+            fontSize: 14.fSize),
+        headline5: TextStyle(
+            color: appTheme.blueGray400,
+            letterSpacing: 1,
+            wordSpacing: 1,
+            fontWeight: FontWeight.w500,
+            fontSize: 20.fSize),
+        headline6: TextStyle(
+            color: appTheme.blueGray400,
+            letterSpacing: 1,
+            wordSpacing: 1,
+            fontWeight: FontWeight.w400,
+            fontSize: 16.fSize),
+      ),
+      appBarTheme: AppBarTheme(
+          iconTheme: IconThemeData(color: appTheme.black900),
+          centerTitle: true,
+          backgroundColor: appTheme.whiteA700,
+          titleTextStyle: TextStyle(
+              color: appTheme.black900,
+              letterSpacing: 1,
+              wordSpacing: 1,
+              fontWeight: FontWeight.w600,
+              fontSize: 20.fSize),
+          elevation: 0),
     );
   }
 
@@ -76,7 +125,7 @@ class PrimaryColors {
   // White
   Color get whiteA700 => Color(0XFFFFFFFF);
 
-  
+  Color get blueShade800 => Color(0xff0165FB);
 }
 
 PrimaryColors get appTheme => ThemeHelper().themeColor();
